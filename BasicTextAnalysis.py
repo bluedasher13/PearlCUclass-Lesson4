@@ -2,7 +2,7 @@
 import re
 
 # 指定要分析的文本檔案路徑
-file_path = r"LV2/TextAnalysis/text_file.txt"
+file_path = r"text_file.txt"
 # 創建一個文本檔案相關類別的實例（模式"r"為唯讀），並指定給file這個變數後續可以操作指定的文本檔案
 file = open(file_path, "r")
 # 讀取文本內容，並用text這個變數接收回傳的內容字串
